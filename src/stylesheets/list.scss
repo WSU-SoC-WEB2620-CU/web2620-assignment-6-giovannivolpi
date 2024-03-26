@@ -26,13 +26,13 @@
     text-transform: uppercase;
     font-size: 1.1em;
     outline: 0;
-    color: #333;
+    color: $secondary-color;
   }
   
   .nav li.active a {
-    background: #0d6efd;
+    background: $primary-color;
     border-radius: 5px;
-    color: #FFF;
+    color: $background;
   }
 
   ul.default {
@@ -44,7 +44,7 @@
   ul.default li {
     display: block;
     padding: 2em 0em 1.25em 0em;
-    border-top: 1px solid #303030;
+    border-top: 1px solid $border-top;
   }
   
   ul.default li:first-child {
@@ -70,7 +70,7 @@
   ul.style1 li {
     padding: 0.60em 0em;
     border-top: 1px solid;
-    border-color: rgba(0, 0, 0, .1);
+    border-color: $border-color;
   }
   
   ul.style1 li:first-child {
@@ -87,7 +87,7 @@
   ul.style2 li {
     padding: 1.90em 0em 1.60em 0em;
     border-top: 1px solid;
-    border-color: rgba(0, 0, 0, .1);
+    border-color: $border-color;
   }
   
   ul.style2 li:first-child {

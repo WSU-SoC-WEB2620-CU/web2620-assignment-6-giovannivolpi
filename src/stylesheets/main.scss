@@ -1,4 +1,14 @@
 // Your styles go here
+$primary-color: #0d6efd;
+$secondary-color: #333;
+$third-color: rgba(255, 255, 255, .4);
+$background: #fff;
+$border-color: rgba(0, 0, 0, .1);
+$border-top: #303030;
+
+
+
+
 @import 'grid';
 @import 'buttons';
 @import 'list';
@@ -6,6 +16,7 @@
 @import 'alerts';
 @import 'tables';
 @import 'cards';
+
 
 
 

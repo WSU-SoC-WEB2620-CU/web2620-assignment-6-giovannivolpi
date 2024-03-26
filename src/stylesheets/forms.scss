@@ -1,16 +1,16 @@
 .footer {
     position: relative;
-    color: rgba(255, 255, 255, .4);
+    color: $third-color;
   }
   
   .footer h2 {
     padding-bottom: 1.5em;
     font-size: 1.6em;
-    color: #FFF;
+    color: $background;
   }
   
   .footer strong {
-    color: rgba(255, 255, 255, .7);
+    color: $third-color;
   }
   
   .copyright {
@@ -19,12 +19,12 @@
     border-top: 1px solid #303030;
     letter-spacing: 1px;
     text-align: center;
-    color: rgba(255, 255, 255, .4);
+    color: $third-color;
   }
   
   .copyright a {
     text-decoration: none;
-    color: rgba(255, 255, 255, .4) !important;
+    color: $third-color !important;
   }
   
   .marketing {
@@ -44,7 +44,7 @@
   }
   
   .featured .box {
-    background: #FFF;
+    background: $background;
     padding: 1.4em;
     font-size: 0.95em;
     border-radius: 5px;
@@ -56,7 +56,7 @@
     border-radius: 5px;
     line-height: 180%;
     font-size: 1.2em;
-    color: #333;
+    color: $secondary-color;
   }
   
   .ballon-bgbtm {
@@ -64,5 +64,5 @@
   }
   
   .balloon strong {
-    color: #333 !important;
+    color: $secondary-color !important;
   }
