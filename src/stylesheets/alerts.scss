@@ -1,0 +1,34 @@
+.logo {
+    position: absolute;
+    left: 0em;
+    top: 3em;
+  }
+  
+  .logo a {
+    display: block;
+    text-decoration: none;
+    font-size: 2.8em;
+    font-weight: 600;
+  }
+  
+  .banner {
+    position: relative;
+    padding: 12em 0em;
+    background: url('/images/banner.jpg') no-repeat center;
+    background-size: cover;
+    color: #fff;
+  }
+  
+  .page {
+    position: relative;
+    background: #fff;
+  }
+  
+  .main {
+    border-top: 1px solid;
+    border-color: rgba(0, 0, 0, .2);
+  }
+  
+  .sidebar header h2 {
+    font-size: 1.6em;
+  }

@@ -1,0 +1,68 @@
+.footer {
+    position: relative;
+    color: rgba(255, 255, 255, .4);
+  }
+  
+  .footer h2 {
+    padding-bottom: 1.5em;
+    font-size: 1.6em;
+    color: #FFF;
+  }
+  
+  .footer strong {
+    color: rgba(255, 255, 255, .7);
+  }
+  
+  .copyright {
+    position: relative;
+    padding: 3em 0em;
+    border-top: 1px solid #303030;
+    letter-spacing: 1px;
+    text-align: center;
+    color: rgba(255, 255, 255, .4);
+  }
+  
+  .copyright a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, .4) !important;
+  }
+  
+  .marketing {
+    position: relative;
+  }
+  
+  .marketing header h2 {
+    font-size: 1.6em;
+  }
+  
+  .featured {
+    position: relative;
+  }
+  
+  .featured .divider {
+    border-bottom: 1px solid #303030;
+  }
+  
+  .featured .box {
+    background: #FFF;
+    padding: 1.4em;
+    font-size: 0.95em;
+    border-radius: 5px;
+  }
+  
+  .balloon {
+    padding: 1.87em;
+    background: url('/images/balloon-bg.jpg') repeat left top;
+    border-radius: 5px;
+    line-height: 180%;
+    font-size: 1.2em;
+    color: #333;
+  }
+  
+  .ballon-bgbtm {
+    height: 1.87em;
+  }
+  
+  .balloon strong {
+    color: #333 !important;
+  }
